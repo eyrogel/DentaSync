@@ -959,6 +959,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .pt-28 {
   padding-top: 7rem;
 }
@@ -1236,6 +1241,16 @@ video {
   .phone\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .phone\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .phone\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .phone\:pr-10 {
@@ -1604,6 +1619,11 @@ video {
     font-size: 1.1rem;
   }
 
+  .laptop\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .laptop\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -1633,6 +1653,10 @@ video {
 
   .laptop-s\:m-3 {
     margin: 0.75rem;
+  }
+
+  .laptop-s\:m-0 {
+    margin: 0px;
   }
 
   .laptop-s\:ml-\[10\%\] {
@@ -1922,6 +1946,22 @@ video {
     width: 65%;
   }
 
+  .laptop-m\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .laptop-m\:w-\[28\%\] {
+    width: 28%;
+  }
+
+  .laptop-m\:w-\[25\%\] {
+    width: 25%;
+  }
+
+  .laptop-m\:w-\[20\%\] {
+    width: 20%;
+  }
+
   .laptop-m\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1942,14 +1982,14 @@ video {
     padding-right: 36rem;
   }
 
-  .laptop-m\:py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-
   .laptop-m\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .laptop-m\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .laptop-m\:py-9 {
@@ -1972,11 +2012,6 @@ video {
     padding-bottom: 3rem;
   }
 
-  .laptop-m\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
   .laptop-m\:pt-80 {
     padding-top: 20rem;
   }
@@ -1997,6 +2032,10 @@ video {
 }
 
 @media (min-width: 1600px) {
+  .desktop-s\:m-0 {
+    margin: 0px;
+  }
+
   .desktop-s\:ml-\[9\.3\%\] {
     margin-left: 9.3%;
   }
@@ -2013,12 +2052,24 @@ video {
     margin-top: 8rem;
   }
 
+  .desktop-s\:mt-4 {
+    margin-top: 1rem;
+  }
+
   .desktop-s\:w-14 {
     width: 3.5rem;
   }
 
+  .desktop-s\:w-\[25\%\] {
+    width: 25%;
+  }
+
   .desktop-s\:w-\[3\%\] {
     width: 3%;
+  }
+
+  .desktop-s\:w-\[31\%\] {
+    width: 31%;
   }
 
   .desktop-s\:w-\[60\%\] {
@@ -2029,28 +2080,33 @@ video {
     width: 65%;
   }
 
-  .desktop-s\:w-\[20\%\] {
-    width: 20%;
-  }
-
-  .desktop-s\:w-\[25\%\] {
-    width: 25%;
-  }
-
-  .desktop-s\:w-\[40\%\] {
-    width: 40%;
-  }
-
-  .desktop-s\:w-\[25s\%\] {
-    width: 25s%;
-  }
-
   .desktop-s\:w-\[30\%\] {
     width: 30%;
   }
 
-  .desktop-s\:w-\[31\%\] {
-    width: 31%;
+  .desktop-s\:w-\[32\%\] {
+    width: 32%;
+  }
+
+  .desktop-s\:w-\[31\.5\%\] {
+    width: 31.5%;
+  }
+
+  .desktop-s\:w-\[31\.6\%\] {
+    width: 31.6%;
+  }
+
+  .desktop-s\:w-\[10\%\] {
+    width: 10%;
+  }
+
+  .desktop-s\:w-full {
+    width: 100%;
+  }
+
+  .desktop-s\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .desktop-s\:px-\[42rem\] {
@@ -2078,14 +2134,44 @@ video {
     padding-right: 0.5rem;
   }
 
-  .desktop-s\:py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+  .desktop-s\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
-  .desktop-s\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
+  .desktop-s\:px-\[10rem\] {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .desktop-s\:px-\[32rem\] {
+    padding-left: 32rem;
+    padding-right: 32rem;
+  }
+
+  .desktop-s\:px-\[40rem\] {
+    padding-left: 40rem;
+    padding-right: 40rem;
+  }
+
+  .desktop-s\:px-\[45rem\] {
+    padding-left: 45rem;
+    padding-right: 45rem;
+  }
+
+  .desktop-s\:px-\[35rem\] {
+    padding-left: 35rem;
+    padding-right: 35rem;
+  }
+
+  .desktop-s\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .desktop-s\:py-0\.5 {
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
   }
 
   .desktop-s\:pl-36 {
@@ -2095,47 +2181,488 @@ video {
   .desktop-s\:pt-3 {
     padding-top: 0.75rem;
   }
+
+  .desktop-s\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  @media (min-width: 1920px) {
+    .desktop-s\:desktop-m\:top-\[115rem\] {
+      top: 115rem;
+    }
+
+    .desktop-s\:desktop-m\:top-\[105rem\] {
+      top: 105rem;
+    }
+  }
 }
 
 @media (min-width: 1920px) {
-  .desktop-m\:ml-\[10\%\] {
-    margin-left: 10%;
+  .desktop-m\:top-\[70rem\] {
+    top: 70rem;
   }
 
-  .desktop-m\:ml-\[20\%\] {
-    margin-left: 20%;
+  .desktop-m\:top-\[100rem\] {
+    top: 100rem;
   }
 
-  .desktop-m\:ml-\[10\.3\%\] {
-    margin-left: 10.3%;
+  .desktop-m\:top-\[90rem\] {
+    top: 90rem;
   }
 
-  .desktop-m\:ml-\[10\.5\%\] {
-    margin-left: 10.5%;
+  .desktop-m\:top-\[85rem\] {
+    top: 85rem;
   }
 
-  .desktop-m\:ml-\[10\.2\%\] {
-    margin-left: 10.2%;
+  .desktop-m\:top-\[80rem\] {
+    top: 80rem;
+  }
+
+  .desktop-m\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .desktop-m\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .desktop-m\:my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .desktop-m\:ml-\[10\.28\%\] {
     margin-left: 10.28%;
   }
 
-  .desktop-m\:pl-40 {
-    padding-left: 10rem;
+  .desktop-m\:mt-36 {
+    margin-top: 9rem;
   }
 
-  .desktop-m\:pl-80 {
-    padding-left: 20rem;
+  .desktop-m\:mt-40 {
+    margin-top: 10rem;
+  }
+
+  .desktop-m\:mt-\[5\] {
+    margin-top: 5;
+  }
+
+  .desktop-m\:mt-\[6\] {
+    margin-top: 6;
+  }
+
+  .desktop-m\:mt-\[7\] {
+    margin-top: 7;
+  }
+
+  .desktop-m\:mt-\[10\] {
+    margin-top: 10;
+  }
+
+  .desktop-m\:mt-\[10rem\] {
+    margin-top: 10rem;
+  }
+
+  .desktop-m\:mt-\[9rem\] {
+    margin-top: 9rem;
+  }
+
+  .desktop-m\:mt-\[9\.5rem\] {
+    margin-top: 9.5rem;
+  }
+
+  .desktop-m\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .desktop-m\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .desktop-m\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .desktop-m\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .desktop-m\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .desktop-m\:w-\[43\%\] {
+    width: 43%;
+  }
+
+  .desktop-m\:w-\[20\%\] {
+    width: 20%;
+  }
+
+  .desktop-m\:w-\[18\%\] {
+    width: 18%;
+  }
+
+  .desktop-m\:w-20 {
+    width: 5rem;
+  }
+
+  .desktop-m\:w-\[2\%\] {
+    width: 2%;
+  }
+
+  .desktop-m\:w-\[4\%\] {
+    width: 4%;
+  }
+
+  .desktop-m\:w-\[3\%\] {
+    width: 3%;
+  }
+
+  .desktop-m\:w-28 {
+    width: 7rem;
+  }
+
+  .desktop-m\:w-\[50\] {
+    width: 50;
+  }
+
+  .desktop-m\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .desktop-m\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .desktop-m\:w-\[58\%\] {
+    width: 58%;
+  }
+
+  .desktop-m\:w-\[56\%\] {
+    width: 56%;
+  }
+
+  .desktop-m\:w-\[22\%\] {
+    width: 22%;
+  }
+
+  .desktop-m\:w-\[21\%\] {
+    width: 21%;
+  }
+
+  .desktop-m\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .desktop-m\:w-\[31\%\] {
+    width: 31%;
+  }
+
+  .desktop-m\:w-\[32\%\] {
+    width: 32%;
+  }
+
+  .desktop-m\:w-\[33\%\] {
+    width: 33%;
+  }
+
+  .desktop-m\:w-\[33\.5\%\] {
+    width: 33.5%;
+  }
+
+  .desktop-m\:w-\[34\%\] {
+    width: 34%;
+  }
+
+  .desktop-m\:w-\[35\%\] {
+    width: 35%;
+  }
+
+  .desktop-m\:w-\[28\%\] {
+    width: 28%;
+  }
+
+  .desktop-m\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .desktop-m\:w-\[55\%\] {
+    width: 55%;
+  }
+
+  .desktop-m\:w-\[10\%\] {
+    width: 10%;
+  }
+
+  .desktop-m\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .desktop-m\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .desktop-m\:w-\[75\%\] {
+    width: 75%;
+  }
+
+  .desktop-m\:w-\[120\%\] {
+    width: 120%;
+  }
+
+  .desktop-m\:w-\[110\%\] {
+    width: 110%;
+  }
+
+  .desktop-m\:w-\[105\%\] {
+    width: 105%;
+  }
+
+  .desktop-m\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .desktop-m\:w-\[101\%\] {
+    width: 101%;
+  }
+
+  .desktop-m\:w-\[102\%\] {
+    width: 102%;
+  }
+
+  .desktop-m\:w-\[103\%\] {
+    width: 103%;
+  }
+
+  .desktop-m\:w-\[104\%\] {
+    width: 104%;
+  }
+
+  .desktop-m\:w-\[106\%\] {
+    width: 106%;
+  }
+
+  .desktop-m\:w-\[108\%\] {
+    width: 108%;
+  }
+
+  .desktop-m\:w-\[107\%\] {
+    width: 107%;
+  }
+
+  .desktop-m\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .desktop-m\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .desktop-m\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .desktop-m\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .desktop-m\:py-\[5rem\] {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .desktop-m\:py-\[4\.5rem\] {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .desktop-m\:py-\[4\.3rem\] {
+    padding-top: 4.3rem;
+    padding-bottom: 4.3rem;
+  }
+
+  .desktop-m\:py-\[4\.4rem\] {
+    padding-top: 4.4rem;
+    padding-bottom: 4.4rem;
+  }
+
+  .desktop-m\:py-\[4\.2rem\] {
+    padding-top: 4.2rem;
+    padding-bottom: 4.2rem;
+  }
+
+  .desktop-m\:py-\[4\.29rem\] {
+    padding-top: 4.29rem;
+    padding-bottom: 4.29rem;
+  }
+
+  .desktop-m\:py-\[4\.291rem\] {
+    padding-top: 4.291rem;
+    padding-bottom: 4.291rem;
+  }
+
+  .desktop-m\:py-\[4\.285rem\] {
+    padding-top: 4.285rem;
+    padding-bottom: 4.285rem;
+  }
+
+  .desktop-m\:py-\[4\.282rem\] {
+    padding-top: 4.282rem;
+    padding-bottom: 4.282rem;
+  }
+
+  .desktop-m\:py-\[4\.284rem\] {
+    padding-top: 4.284rem;
+    padding-bottom: 4.284rem;
+  }
+
+  .desktop-m\:py-\[4rem\] {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .desktop-m\:py-\[6rem\] {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .desktop-m\:py-\[1rem\] {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .desktop-m\:py-\[2rem\] {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .desktop-m\:py-\[3\.5rem\] {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .desktop-m\:py-\[3\.3rem\] {
+    padding-top: 3.3rem;
+    padding-bottom: 3.3rem;
+  }
+
+  .desktop-m\:py-\[3\.1rem\] {
+    padding-top: 3.1rem;
+    padding-bottom: 3.1rem;
+  }
+
+  .desktop-m\:py-\[3rem\] {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .desktop-m\:px-\[50rem\] {
+    padding-left: 50rem;
+    padding-right: 50rem;
+  }
+
+  .desktop-m\:px-\[60rem\] {
+    padding-left: 60rem;
+    padding-right: 60rem;
+  }
+
+  .desktop-m\:px-\[58rem\] {
+    padding-left: 58rem;
+    padding-right: 58rem;
+  }
+
+  .desktop-m\:px-\[52rem\] {
+    padding-left: 52rem;
+    padding-right: 52rem;
+  }
+
+  .desktop-m\:px-\[51rem\] {
+    padding-left: 51rem;
+    padding-right: 51rem;
+  }
+
+  .desktop-m\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .desktop-m\:px-\[40rem\] {
+    padding-left: 40rem;
+    padding-right: 40rem;
+  }
+
+  .desktop-m\:px-\[45rem\] {
+    padding-left: 45rem;
+    padding-right: 45rem;
+  }
+
+  .desktop-m\:px-\[47rem\] {
+    padding-left: 47rem;
+    padding-right: 47rem;
+  }
+
+  .desktop-m\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .desktop-m\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .desktop-m\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .desktop-m\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  .desktop-m\:px-44 {
+    padding-left: 11rem;
+    padding-right: 11rem;
   }
 
   .desktop-m\:pl-48 {
     padding-left: 12rem;
   }
 
-  .desktop-m\:pl-44 {
-    padding-left: 11rem;
+  .desktop-m\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .desktop-m\:pt-5 {
+    padding-top: 1.25rem;
+  }
+
+  .desktop-m\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
+  .desktop-m\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .desktop-m\:pt-2 {
+    padding-top: 0.5rem;
+  }
+
+  .desktop-m\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .desktop-m\:pt-3 {
+    padding-top: 0.75rem;
   }
 
   .desktop-m\:text-7xl {
@@ -2146,6 +2673,61 @@ video {
   .desktop-m\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .desktop-m\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .desktop-m\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .desktop-m\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .desktop-m\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .desktop-m\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .desktop-m\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .desktop-m\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .desktop-m\:text-\[5rem\] {
+    font-size: 5rem;
+  }
+
+  .desktop-m\:leading-loose {
+    line-height: 2;
+  }
+
+  .desktop-m\:leading-10 {
+    line-height: 2.5rem;
+  }
+
+  .desktop-m\:leading-relaxed {
+    line-height: 1.625;
+  }
+
+  .desktop-m\:leading-normal {
+    line-height: 1.5;
   }
 }
 
